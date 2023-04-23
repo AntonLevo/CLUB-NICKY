@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Club Nicky - Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta lang="EN">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="styles.css">
+    </head>
+
+<style>	/* CSS code for h1 margin */
+	h1 {
+		margin-top: 100px;
+    margin-bottom: 50px;
+	}
+  button {
+		margin-top: 50px;
+    margin-bottom: 50px;
+	}
+  p {
+		margin-top: 20px;
+    margin-bottom: 70px;
+	}
+
+  </style>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+        <a class="navbar-brand" href="#">Club Nicky</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="house_rules.html">House Rules</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="drink_list.html">Drink List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      </header>  
+      <body>
+      <div class="container-fluid">
+        <div class="container">
+          <main class="text-center">
+            <h1>Contact Us</h1>
+            <p>Fill out the form below to get in touch with us.</p>
+            <form action="submit-form.php" method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-control" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-control" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </main>
+        </div>
+        
+
+        
+  </div>
+    <footer style="padding-top: 50px;">
+      <div class="container">
+        <div class="row footer-row">
+          <div class="col-md-6 footer-col">
+            <h4>Contact Us</h4>
+            <p>123 Main St.</p>
+            <p>Anytown, USA 12345</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@example.com</p>
+          </div>
+          <div class="col-md-6 footer-col text-md-right">
+            <img src="logotiny.jpg" alt="Logo">
+          </div>
+          <div class="col-md-12 footer-copy">
+            <p>&copy; 2023 Example Company. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>
